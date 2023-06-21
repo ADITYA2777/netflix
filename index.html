@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix</title>
+    <link rel="stylesheet" href="./index.css">
+    <link rel="shortcut icon" href="n1.png" type="image/x-icon">
+    <style>
+        /* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    background-color: black;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+.logo{
+    width: 250px;
+    height: 400px;
+    position: relative;
+}
+.logo span{
+    width: 80px;
+    height: 0;
+    position: absolute;
+}
+.logo .left-strip{
+    background-color: #a90000;
+    bottom: 0;
+    left: 0;
+    animation: netflix 1s linear forwards;
+    animation-delay: 1s;
+    
+}
+
+.logo .right-strip{
+    background-color: #a90000;
+    bottom: 0;
+    right: 0;
+    animation: netflix 1s linear forwards;
+    animation-delay:3s;
+}
+.logo .center-strip{
+    background-color:#d40000;
+    transform: skew(23deg);
+    transform-origin:top left;
+    z-index: 3;
+    box-shadow: 0px 4px 60px black;
+    animation: netflix 1s linear forwards;
+    animation-delay: 2s;
+}
+.logo::after{
+    content: "";
+    position:absolute;
+    background-color:rgb(0, 0, 0);
+    bottom: -10px;
+    left: -15px;
+    width: 130%;
+    height: 25px;
+    border-radius: 50%;
+    z-index: 3;
+}
+.container .tiltle{
+    color: white;
+    position:absolute;
+    bottom:30px;
+    font-size:80px;
+    font-weight:bold;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    z-index:3;
+    opacity: 0;
+    animation: title 1s linear forwards;
+    animation-delay: 4s;
+}
+@keyframes netflix {
+    100%{
+        height: 100%;
+    }
+}
+@keyframes title{
+    100%{
+        opacity: 1;
+    }
+}
+@media  screen and (max-width:769px) {
+    
+    .container .tiltle{
+        bottom:0px;
+    }
+   
+}
+    </style> */
+</head>
+<body>
+    <div class="container">
+        <div class="logo">
+            <span class="left-strip"></span>
+            <span class="center-strip"></span>
+            <span class="right-strip"></span>
+        </div>
+        <div class="tiltle">Netflix</div>
+    </div>
+
+    <script>
+         
+        setTimeout(function() {
+            // Load your second HTML file here
+            window.location.href = "net.html";
+        }, 7000); // Delay in milliseconds (4 seconds)
+    
+    </script>
+     
+</body>
+</html>
